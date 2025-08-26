@@ -1,0 +1,1662 @@
+[
+  {
+    "id": 1,
+    "nama": "Air Montop gelas",
+    "harga": 13500
+  },
+  {
+    "id": 2,
+    "nama": "3D gummy",
+    "harga": 10500
+  },
+  {
+    "id": 3,
+    "nama": "ABC susu 1 dus/kapal api",
+    "harga": 194000
+  },
+  {
+    "id": 4,
+    "nama": "ABC susu 1rg/kapal api",
+    "harga": 17000
+  },
+  {
+    "id": 5,
+    "nama": "Adem sari SASET 1 lembar",
+    "harga": 50000
+  },
+  {
+    "id": 6,
+    "nama": "Adem sari kaleng 1 biji",
+    "harga": 6000
+  },
+  {
+    "id": 7,
+    "nama": "Ale² 1 dus",
+    "harga": 20000
+  },
+  {
+    "id": 8,
+    "nama": "Anak sumang 1 ikat",
+    "harga": 8000
+  },
+  {
+    "id": 9,
+    "nama": "Anget sari susu jahe 1 pak",
+    "harga": 54000
+  },
+  {
+    "id": 10,
+    "nama": "Anget susu jahe 1 rg",
+    "harga": 11500
+  },
+  {
+    "id": 11,
+    "nama": "Aoka gulung",
+    "harga": 1800
+  },
+  {
+    "id": 12,
+    "nama": "Aoka kotak",
+    "harga": 2000
+  },
+  {
+    "id": 13,
+    "nama": "Apetito",
+    "harga": 2000
+  },
+  {
+    "id": 14,
+    "nama": "Aqua/le mineral botol besar 1 dus",
+    "harga": 51000
+  },
+  {
+    "id": 15,
+    "nama": "Aqua/le mineral botol sedang 1 dus",
+    "harga": 46000
+  },
+  {
+    "id": 16,
+    "nama": "Aquviva botol sedang",
+    "harga": 23000
+  },
+  {
+    "id": 17,
+    "nama": "Arden",
+    "harga": 18000
+  },
+  {
+    "id": 18,
+    "nama": "Astor single",
+    "harga": 17500
+  },
+  {
+    "id": 19,
+    "nama": "Attack 1 rg",
+    "harga": 5200
+  },
+  {
+    "id": 20,
+    "nama": "Baby happy L dan M 1rg",
+    "harga": 9500
+  },
+  {
+    "id": 21,
+    "nama": "Baby happy L dan M 1rg",
+    "harga": 10000
+  },
+  {
+    "id": 22,
+    "nama": "Bakpia",
+    "harga": 5000
+  },
+  {
+    "id": 23,
+    "nama": "Bawang putih 1rg",
+    "harga": 5000
+  },
+  {
+    "id": 24,
+    "nama": "Bawang putih seperapat",
+    "harga": 10000
+  },
+  {
+    "id": 25,
+    "nama": "Beng beng",
+    "harga": 36500
+  },
+  {
+    "id": 26,
+    "nama": "Berry sweet rinjani",
+    "harga": 13000
+  },
+  {
+    "id": 27,
+    "nama": "Better",
+    "harga": 17000
+  },
+  {
+    "id": 28,
+    "nama": "Bihun mamamya 1kg",
+    "harga": 20000
+  },
+  {
+    "id": 29,
+    "nama": "Bihun mamaya 1 bal",
+    "harga": 47000
+  },
+  {
+    "id": 30,
+    "nama": "Bihun tanam jagung 1 bks",
+    "harga": 7000
+  },
+  {
+    "id": 31,
+    "nama": "Bihun tanam jagung 1bal",
+    "harga": 68000
+  },
+  {
+    "id": 32,
+    "nama": "Bintang 7 1rg",
+    "harga": 9000
+  },
+  {
+    "id": 33,
+    "nama": "Bintang zero kaleng 1 biji",
+    "harga": 7000
+  },
+  {
+    "id": 34,
+    "nama": "Bodrex biasa 1 kotak",
+    "harga": 10000
+  },
+  {
+    "id": 35,
+    "nama": "Bodrex biasa 1 lembar",
+    "harga": 5000
+  },
+  {
+    "id": 36,
+    "nama": "Bodrexin 1 bungkus",
+    "harga": 5000
+  },
+  {
+    "id": 37,
+    "nama": "Bonita",
+    "harga": 20500
+  },
+  {
+    "id": 38,
+    "nama": "Brondong",
+    "harga": 7500
+  },
+  {
+    "id": 39,
+    "nama": "Bumbu racik campur 1 rg",
+    "harga": 17000
+  },
+  {
+    "id": 40,
+    "nama": "C1000",
+    "harga": 7000
+  },
+  {
+    "id": 41,
+    "nama": "CIKI Zaky 500 1 dus",
+    "harga": 17000
+  },
+  {
+    "id": 42,
+    "nama": "Cannon ball chocolat 1 pak",
+    "harga": 10500
+  },
+  {
+    "id": 43,
+    "nama": "Capung seblak",
+    "harga": 9500
+  },
+  {
+    "id": 44,
+    "nama": "Chiki FF 2000",
+    "harga": 18000
+  },
+  {
+    "id": 45,
+    "nama": "Chiki Garuda o'  corn 2000",
+    "harga": 17500
+  },
+  {
+    "id": 46,
+    "nama": "Chiki Leo/ yang seribuan",
+    "harga": 8500
+  },
+  {
+    "id": 47,
+    "nama": "Chiki chuba",
+    "harga": 17000
+  },
+  {
+    "id": 48,
+    "nama": "Chiki jackpot",
+    "harga": 17000
+  },
+  {
+    "id": 49,
+    "nama": "Chiki leonet 1000",
+    "harga": 8500
+  },
+  {
+    "id": 50,
+    "nama": "Chiki taro 1000",
+    "harga": 9000
+  },
+  {
+    "id": 51,
+    "nama": "Chiki tik tik",
+    "harga": 17500
+  },
+  {
+    "id": 52,
+    "nama": "Chiki tiktik/ jaguar / Zaky / CIKI berhadiah2000",
+    "harga": 17000
+  },
+  {
+    "id": 53,
+    "nama": "Chitato chiki 2000",
+    "harga": 17500
+  },
+  {
+    "id": 54,
+    "nama": "Chocolatos drink 1 biji",
+    "harga": 2500
+  },
+  {
+    "id": 55,
+    "nama": "Chocolatos drink 1 rg",
+    "harga": 21000
+  },
+  {
+    "id": 56,
+    "nama": "Chocolatos stick besar",
+    "harga": 20000
+  },
+  {
+    "id": 57,
+    "nama": "Chocolatos stick kecil",
+    "harga": 10500
+  },
+  {
+    "id": 58,
+    "nama": "Chocopie",
+    "harga": 21000
+  },
+  {
+    "id": 59,
+    "nama": "Choki choki",
+    "harga": 18000
+  },
+  {
+    "id": 60,
+    "nama": "Chram malam 1 rg",
+    "harga": 22000
+  },
+  {
+    "id": 61,
+    "nama": "Chram siang",
+    "harga": 4000
+  },
+  {
+    "id": 62,
+    "nama": "Classic kong guan",
+    "harga": 9000
+  },
+  {
+    "id": 63,
+    "nama": "Cleo/aquviva botol 1000 1 pak",
+    "harga": 20000
+  },
+  {
+    "id": 64,
+    "nama": "Coy roti",
+    "harga": 1750
+  },
+  {
+    "id": 65,
+    "nama": "Dancow SASET 1 rg",
+    "harga": 36500
+  },
+  {
+    "id": 66,
+    "nama": "Dilan kotak",
+    "harga": 20000
+  },
+  {
+    "id": 67,
+    "nama": "Dilan rcg",
+    "harga": 18000
+  },
+  {
+    "id": 68,
+    "nama": "Diplomat Evo 1 biji",
+    "harga": 22800
+  },
+  {
+    "id": 69,
+    "nama": "Diplomat Evo 1 pak",
+    "harga": 224000
+  },
+  {
+    "id": 70,
+    "nama": "Duo sus",
+    "harga": 1800
+  },
+  {
+    "id": 71,
+    "nama": "ENstrostop 1 kotak",
+    "harga": 13000
+  },
+  {
+    "id": 72,
+    "nama": "ENstrostop 1 lembar",
+    "harga": 7000
+  },
+  {
+    "id": 73,
+    "nama": "Ekonomi 1000 1 dus",
+    "harga": 50000
+  },
+  {
+    "id": 74,
+    "nama": "Ekonomi 1000 1 rg",
+    "harga": 4500
+  },
+  {
+    "id": 75,
+    "nama": "Ekonomi 2000 1 biji",
+    "harga": 1750
+  },
+  {
+    "id": 76,
+    "nama": "Ekonomi 2000 1 dus",
+    "harga": 52000
+  },
+  {
+    "id": 77,
+    "nama": "Ekonomi 5000 1 biji",
+    "harga": 4500
+  },
+  {
+    "id": 78,
+    "nama": "Ekonomi 5000 1dus",
+    "harga": 53500
+  },
+  {
+    "id": 79,
+    "nama": "Energen campur 1 rg",
+    "harga": 19000
+  },
+  {
+    "id": 80,
+    "nama": "Floridina 1 pak",
+    "harga": 31000
+  },
+  {
+    "id": 81,
+    "nama": "Fruit gummy 1 pak",
+    "harga": 10000
+  },
+  {
+    "id": 82,
+    "nama": "GGM 1 biji",
+    "harga": 14800
+  },
+  {
+    "id": 83,
+    "nama": "GGM 1 pak",
+    "harga": 145500
+  },
+  {
+    "id": 84,
+    "nama": "Garam 1 bal",
+    "harga": 83000
+  },
+  {
+    "id": 85,
+    "nama": "Garam 1 biji",
+    "harga": 2200
+  },
+  {
+    "id": 86,
+    "nama": "Gemes enak",
+    "harga": 8500
+  },
+  {
+    "id": 87,
+    "nama": "Gerry bantal 2000",
+    "harga": 17500
+  },
+  {
+    "id": 88,
+    "nama": "Gerry malkis",
+    "harga": 9000
+  },
+  {
+    "id": 89,
+    "nama": "Gerry messes",
+    "harga": 4500
+  },
+  {
+    "id": 90,
+    "nama": "Go potato",
+    "harga": 9000
+  },
+  {
+    "id": 91,
+    "nama": "Golda 1 pak",
+    "harga": 35500
+  },
+  {
+    "id": 92,
+    "nama": "Good day capuccino 1rg",
+    "harga": 21000
+  },
+  {
+    "id": 93,
+    "nama": "Good day late 1 rg",
+    "harga": 14000
+  },
+  {
+    "id": 94,
+    "nama": "Good day mocachino 1 dus",
+    "harga": 167000
+  },
+  {
+    "id": 95,
+    "nama": "Good day mocachino 1 rg",
+    "harga": 15500
+  },
+  {
+    "id": 96,
+    "nama": "Good time",
+    "harga": 19500
+  },
+  {
+    "id": 97,
+    "nama": "Gudang garam filter 1 biji",
+    "harga": 25000
+  },
+  {
+    "id": 98,
+    "nama": "Gudang garam filter 1 pak",
+    "harga": 498000
+  },
+  {
+    "id": 99,
+    "nama": "Gula gmp curah 1kg",
+    "harga": 17000
+  },
+  {
+    "id": 100,
+    "nama": "Gula gmp kemasan 1 biji",
+    "harga": 18000
+  },
+  {
+    "id": 101,
+    "nama": "Gula gmp seperapat",
+    "harga": 4500
+  },
+  {
+    "id": 102,
+    "nama": "Gula gmp setengah",
+    "harga": 8000
+  },
+  {
+    "id": 103,
+    "nama": "Gula merah 1kg",
+    "harga": 16500
+  },
+  {
+    "id": 104,
+    "nama": "Handsaplast 1 kotak",
+    "harga": 31000
+  },
+  {
+    "id": 105,
+    "nama": "Handsaplast 10 biji",
+    "harga": 4000
+  },
+  {
+    "id": 106,
+    "nama": "Happy time panda coklat 500",
+    "harga": 4500
+  },
+  {
+    "id": 107,
+    "nama": "Hatari",
+    "harga": 37000
+  },
+  {
+    "id": 108,
+    "nama": "Indocafe 1 pak",
+    "harga": 145000
+  },
+  {
+    "id": 109,
+    "nama": "Indocafe 1rg",
+    "harga": 14000
+  },
+  {
+    "id": 110,
+    "nama": "Indomie ayam bawang/soto",
+    "harga": 2800
+  },
+  {
+    "id": 111,
+    "nama": "Indomie ayam bawang/soto",
+    "harga": 108500
+  },
+  {
+    "id": 112,
+    "nama": "Indomie goreng dll/ kari",
+    "harga": 3000
+  },
+  {
+    "id": 113,
+    "nama": "Indomie goreng dll/kari  1 dus",
+    "harga": 114000
+  },
+  {
+    "id": 114,
+    "nama": "Indomilk kids 1 dus",
+    "harga": 89000
+  },
+  {
+    "id": 115,
+    "nama": "Isoplus 1pak",
+    "harga": 30000
+  },
+  {
+    "id": 116,
+    "nama": "Jagung irwan",
+    "harga": 5500
+  },
+  {
+    "id": 117,
+    "nama": "Jarum super 1 biji",
+    "harga": 23300
+  },
+  {
+    "id": 118,
+    "nama": "Jarum super 1 pak",
+    "harga": 229000
+  },
+  {
+    "id": 119,
+    "nama": "Jasjus 1 pak",
+    "harga": 16000
+  },
+  {
+    "id": 120,
+    "nama": "Jasjus 1rg",
+    "harga": 3200
+  },
+  {
+    "id": 121,
+    "nama": "Jelly ember",
+    "harga": 4500
+  },
+  {
+    "id": 122,
+    "nama": "Jelly layar",
+    "harga": 2000
+  },
+  {
+    "id": 123,
+    "nama": "Jelly panjang",
+    "harga": 4500
+  },
+  {
+    "id": 124,
+    "nama": "Kacang ijo seperapat",
+    "harga": 7000
+  },
+  {
+    "id": 125,
+    "nama": "Kacang tanah 1kg",
+    "harga": 26000
+  },
+  {
+    "id": 126,
+    "nama": "Kacang tanah setengah",
+    "harga": 14000
+  },
+  {
+    "id": 127,
+    "nama": "Kanton tomat 1 pak",
+    "harga": 9000
+  },
+  {
+    "id": 128,
+    "nama": "Kantong hitam UK 17 1 bungkus",
+    "harga": 2500
+  },
+  {
+    "id": 129,
+    "nama": "Kantong hitam UK 17 1 iket",
+    "harga": 22000
+  },
+  {
+    "id": 130,
+    "nama": "Kantong hitam UK 24 1 bungkus",
+    "harga": 5000
+  },
+  {
+    "id": 131,
+    "nama": "Kantong hitam UK 24 1 iket",
+    "harga": 47000
+  },
+  {
+    "id": 132,
+    "nama": "Kantong hitam UK 28 1 bungkus",
+    "harga": 8000
+  },
+  {
+    "id": 133,
+    "nama": "Kantong hitam UK 28 1 iket",
+    "harga": 35000
+  },
+  {
+    "id": 134,
+    "nama": "Kantong tomat 1 iket",
+    "harga": 42000
+  },
+  {
+    "id": 135,
+    "nama": "Kapal api 160gr 1 biji",
+    "harga": 23000
+  },
+  {
+    "id": 136,
+    "nama": "Kapal api 65gr 1 biji",
+    "harga": 9500
+  },
+  {
+    "id": 137,
+    "nama": "Kapal api 65gr 1 rg",
+    "harga": 90000
+  },
+  {
+    "id": 138,
+    "nama": "Kapal api kecil 1 rg",
+    "harga": 9500
+  },
+  {
+    "id": 139,
+    "nama": "Kecap Bango besar 1 biji",
+    "harga": 24000
+  },
+  {
+    "id": 140,
+    "nama": "Kedelai irwan",
+    "harga": 8000
+  },
+  {
+    "id": 141,
+    "nama": "Kemiri 1kg",
+    "harga": 45000
+  },
+  {
+    "id": 142,
+    "nama": "Kemiri seperapat",
+    "harga": 12000
+  },
+  {
+    "id": 143,
+    "nama": "Kemiri setengah",
+    "harga": 23000
+  },
+  {
+    "id": 144,
+    "nama": "Kerupuk 1000",
+    "harga": 9500
+  },
+  {
+    "id": 145,
+    "nama": "Kerupuk ayam jago",
+    "harga": 9500
+  },
+  {
+    "id": 146,
+    "nama": "Kerupuk warna uduk 1 bal",
+    "harga": 63000
+  },
+  {
+    "id": 147,
+    "nama": "Kerupuk warna uduk 1kg",
+    "harga": 15000
+  },
+  {
+    "id": 148,
+    "nama": "Ketumbar bubuk 1 rg/kunyit/lada",
+    "harga": 10500
+  },
+  {
+    "id": 149,
+    "nama": "Kingkong 1 dus",
+    "harga": 335000
+  },
+  {
+    "id": 150,
+    "nama": "Kingkong 1 kotak",
+    "harga": 6000
+  },
+  {
+    "id": 151,
+    "nama": "Kispray 1 lembar",
+    "harga": 10000
+  },
+  {
+    "id": 152,
+    "nama": "Kispray 1 pak",
+    "harga": 57000
+  },
+  {
+    "id": 153,
+    "nama": "Komo chiki",
+    "harga": 17000
+  },
+  {
+    "id": 154,
+    "nama": "Kopi nongkrong 1 dus",
+    "harga": 20000
+  },
+  {
+    "id": 155,
+    "nama": "Korek gas 1biji",
+    "harga": 1200
+  },
+  {
+    "id": 156,
+    "nama": "Koyo cabe 1 bungkus",
+    "harga": 11500
+  },
+  {
+    "id": 157,
+    "nama": "Kriss bee chiki",
+    "harga": 8500
+  },
+  {
+    "id": 158,
+    "nama": "Krupuk Palembang",
+    "harga": 5000
+  },
+  {
+    "id": 159,
+    "nama": "Krupuk udang",
+    "harga": 16000
+  },
+  {
+    "id": 160,
+    "nama": "Lampu LED 12watt",
+    "harga": 22000
+  },
+  {
+    "id": 161,
+    "nama": "Lampu LED 9watt",
+    "harga": 20000
+  },
+  {
+    "id": 162,
+    "nama": "Larutan botol besar 1 biji",
+    "harga": 8000
+  },
+  {
+    "id": 163,
+    "nama": "Larutan botol besar 1 iket",
+    "harga": 25000
+  },
+  {
+    "id": 164,
+    "nama": "Larutan botol kecil 1 ikat",
+    "harga": 19500
+  },
+  {
+    "id": 165,
+    "nama": "Larutan/pokary/cincau panda kaleng",
+    "harga": 5500
+  },
+  {
+    "id": 166,
+    "nama": "Lolipop milkita",
+    "harga": 12000
+  },
+  {
+    "id": 167,
+    "nama": "Luwak hitam 1 rg",
+    "harga": 15500
+  },
+  {
+    "id": 168,
+    "nama": "Luwak putih 1 rg",
+    "harga": 14500
+  },
+  {
+    "id": 169,
+    "nama": "Mama lemon 1000 1 biji",
+    "harga": 9000
+  },
+  {
+    "id": 170,
+    "nama": "Mama lemon 1000 1 dus",
+    "harga": 60000
+  },
+  {
+    "id": 171,
+    "nama": "Mama lemon 2000 1 biji",
+    "harga": 1700
+  },
+  {
+    "id": 172,
+    "nama": "Mama lemon 2000 1 dus",
+    "harga": 40000
+  },
+  {
+    "id": 173,
+    "nama": "Mama lemon besar 1 biji",
+    "harga": 9000
+  },
+  {
+    "id": 174,
+    "nama": "Mama lemon sedeng",
+    "harga": 3500
+  },
+  {
+    "id": 175,
+    "nama": "Mama lemon sedeng 1 dus",
+    "harga": 83000
+  },
+  {
+    "id": 176,
+    "nama": "Mamy Poko L 1rg",
+    "harga": 7500
+  },
+  {
+    "id": 177,
+    "nama": "Marlboro Balck 12, 1 biji",
+    "harga": 23300
+  },
+  {
+    "id": 178,
+    "nama": "Marlboro Balck 12, 1 pak",
+    "harga": 230000
+  },
+  {
+    "id": 179,
+    "nama": "Matador kacang telur 1rg",
+    "harga": 14000
+  },
+  {
+    "id": 180,
+    "nama": "Merry queen",
+    "harga": 21000
+  },
+  {
+    "id": 181,
+    "nama": "Mie gelas",
+    "harga": 13000
+  },
+  {
+    "id": 182,
+    "nama": "Mie goreng sukses 1 biji",
+    "harga": 3600
+  },
+  {
+    "id": 183,
+    "nama": "Mie sakura 1 dus",
+    "harga": 66000
+  },
+  {
+    "id": 184,
+    "nama": "Mie sakura 1biji",
+    "harga": 1700
+  },
+  {
+    "id": 185,
+    "nama": "Mie sedap cup goreng 1 biji",
+    "harga": 4500
+  },
+  {
+    "id": 186,
+    "nama": "Mie sedap rebus  1 dus",
+    "harga": 106000
+  },
+  {
+    "id": 187,
+    "nama": "Mie sedap rebus 1 biji",
+    "harga": 2800
+  },
+  {
+    "id": 188,
+    "nama": "Mie sukses goreng isi 2 1dus",
+    "harga": 83000
+  },
+  {
+    "id": 189,
+    "nama": "Mie superior",
+    "harga": 10500
+  },
+  {
+    "id": 190,
+    "nama": "Milikku 1 pak",
+    "harga": 35000
+  },
+  {
+    "id": 191,
+    "nama": "Milkita lolipop 1 pak",
+    "harga": 24000
+  },
+  {
+    "id": 192,
+    "nama": "Milo SASET 1 rg",
+    "harga": 19000
+  },
+  {
+    "id": 193,
+    "nama": "Mint candy plastik",
+    "harga": 26500
+  },
+  {
+    "id": 194,
+    "nama": "Minyak jujur gelas 1 biji",
+    "harga": 4000
+  },
+  {
+    "id": 195,
+    "nama": "Minyak jujur setengah 1 biji",
+    "harga": 8500
+  },
+  {
+    "id": 196,
+    "nama": "Minyak jujur setengah 1 dus",
+    "harga": 198000
+  },
+  {
+    "id": 197,
+    "nama": "Minyak kita 1 dus 2liter/1liter",
+    "harga": 195000
+  },
+  {
+    "id": 198,
+    "nama": "Minyak kita 1 liter 1 biji",
+    "harga": 16500
+  },
+  {
+    "id": 199,
+    "nama": "Minyak kita 2 liter 1 biji",
+    "harga": 33000
+  },
+  {
+    "id": 200,
+    "nama": "Minyak sunco 2liter",
+    "harga": 40000
+  },
+  {
+    "id": 201,
+    "nama": "Minyak tropical botol 1L",
+    "harga": 20000
+  },
+  {
+    "id": 202,
+    "nama": "Minyak tropical botol 2L",
+    "harga": 39500
+  },
+  {
+    "id": 203,
+    "nama": "Mixagrip dll, Bodrex extra dll",
+    "harga": 3000
+  },
+  {
+    "id": 204,
+    "nama": "Mochi",
+    "harga": 20500
+  },
+  {
+    "id": 205,
+    "nama": "Momogi",
+    "harga": 8500
+  },
+  {
+    "id": 206,
+    "nama": "Morris",
+    "harga": 4500
+  },
+  {
+    "id": 207,
+    "nama": "Nabati ahh",
+    "harga": 8500
+  },
+  {
+    "id": 208,
+    "nama": "Nabati pasta keju",
+    "harga": 13000
+  },
+  {
+    "id": 209,
+    "nama": "Nabati rolls",
+    "harga": 8500
+  },
+  {
+    "id": 210,
+    "nama": "Nabati wafer 2000",
+    "harga": 1700
+  },
+  {
+    "id": 211,
+    "nama": "Neslite  campur/aroma bold 16 1 pak",
+    "harga": 209000
+  },
+  {
+    "id": 212,
+    "nama": "Neslite campur/ aroma bold16, 1 biji",
+    "harga": 21300
+  },
+  {
+    "id": 213,
+    "nama": "Nipis madu 1 biji",
+    "harga": 3500
+  },
+  {
+    "id": 214,
+    "nama": "Nipis madu 1 dus",
+    "harga": 40000
+  },
+  {
+    "id": 215,
+    "nama": "Nutrisari 1 pak",
+    "harga": 48000
+  },
+  {
+    "id": 216,
+    "nama": "Nutrisi 1rg",
+    "harga": 12500
+  },
+  {
+    "id": 217,
+    "nama": "Nyam nyam",
+    "harga": 20000
+  },
+  {
+    "id": 218,
+    "nama": "On bold 1 biji",
+    "harga": 21100
+  },
+  {
+    "id": 219,
+    "nama": "On bold kecil 1 pak",
+    "harga": 209000
+  },
+  {
+    "id": 220,
+    "nama": "Oreo biskuit",
+    "harga": 21500
+  },
+  {
+    "id": 221,
+    "nama": "PE 1 bal",
+    "harga": 33000
+  },
+  {
+    "id": 222,
+    "nama": "PE 1 bungkus",
+    "harga": 7000
+  },
+  {
+    "id": 223,
+    "nama": "Padi emas 500",
+    "harga": 4500
+  },
+  {
+    "id": 224,
+    "nama": "Pampers baby happy L dan M 1dus",
+    "harga": 75000
+  },
+  {
+    "id": 225,
+    "nama": "Pampers baby happy xl 1 rg",
+    "harga": 19000
+  },
+  {
+    "id": 226,
+    "nama": "Panter 1 dus",
+    "harga": 20000
+  },
+  {
+    "id": 227,
+    "nama": "Pepsodent 1 pak 75gr",
+    "harga": 52500
+  },
+  {
+    "id": 228,
+    "nama": "Pepsodent 190gr, 1 biji",
+    "harga": 12200
+  },
+  {
+    "id": 229,
+    "nama": "Pepsodent 225gr 1 biji",
+    "harga": 12500
+  },
+  {
+    "id": 230,
+    "nama": "Pepsodent 225gr 1 pak",
+    "harga": 147000
+  },
+  {
+    "id": 231,
+    "nama": "Pepsodent sedang 1 pak",
+    "harga": 145000
+  },
+  {
+    "id": 232,
+    "nama": "Permen fox",
+    "harga": 6500
+  },
+  {
+    "id": 233,
+    "nama": "Permen kaki hbm",
+    "harga": 7000
+  },
+  {
+    "id": 234,
+    "nama": "Permen karet toples",
+    "harga": 16000
+  },
+  {
+    "id": 235,
+    "nama": "Permen lazery",
+    "harga": 6000
+  },
+  {
+    "id": 236,
+    "nama": "Pilkita 1 bungkus",
+    "harga": 8000
+  },
+  {
+    "id": 237,
+    "nama": "Pino",
+    "harga": 4500
+  },
+  {
+    "id": 238,
+    "nama": "Pio pelangi 500",
+    "harga": 4500
+  },
+  {
+    "id": 239,
+    "nama": "Pop mie jumbo 1 biji",
+    "harga": 4500
+  },
+  {
+    "id": 240,
+    "nama": "Pop' n go ( popcorn )",
+    "harga": 1750
+  },
+  {
+    "id": 241,
+    "nama": "Premen kiss",
+    "harga": 7000
+  },
+  {
+    "id": 242,
+    "nama": "Promag 1 kotak",
+    "harga": 23500
+  },
+  {
+    "id": 243,
+    "nama": "Promag 1 lembar",
+    "harga": 8000
+  },
+  {
+    "id": 244,
+    "nama": "Qtela chiki",
+    "harga": 17000
+  },
+  {
+    "id": 245,
+    "nama": "Queen kacang",
+    "harga": 9000
+  },
+  {
+    "id": 246,
+    "nama": "Rexona SASET 1 rg",
+    "harga": 25500
+  },
+  {
+    "id": 247,
+    "nama": "Rinso cair 1 dus",
+    "harga": 76000
+  },
+  {
+    "id": 248,
+    "nama": "Rinso cair 1rg",
+    "harga": 5000
+  },
+  {
+    "id": 249,
+    "nama": "Roma gandum 1 pak",
+    "harga": 17500
+  },
+  {
+    "id": 250,
+    "nama": "Roma kelapa",
+    "harga": 9000
+  },
+  {
+    "id": 251,
+    "nama": "Rosta  panggang 1000",
+    "harga": 8500
+  },
+  {
+    "id": 252,
+    "nama": "Sabun Lifebuoy 1 biji",
+    "harga": 5500
+  },
+  {
+    "id": 253,
+    "nama": "Sabun Lifebuoy besar 1 ikat",
+    "harga": 22000
+  },
+  {
+    "id": 254,
+    "nama": "Sabun detol batang besar 1 biji",
+    "harga": 7000
+  },
+  {
+    "id": 255,
+    "nama": "Sabun giv 1 biji/Nuvo/harmoni",
+    "harga": 2800
+  },
+  {
+    "id": 256,
+    "nama": "Sagu gunung curah 1kg",
+    "harga": 8000
+  },
+  {
+    "id": 257,
+    "nama": "Sagu gunung kemasan 500gr",
+    "harga": 5000
+  },
+  {
+    "id": 258,
+    "nama": "Salon plus ( koyo biasa) 1 bungkus",
+    "harga": 8500
+  },
+  {
+    "id": 259,
+    "nama": "Salt cheese",
+    "harga": 9000
+  },
+  {
+    "id": 260,
+    "nama": "Sambel terasi 1 rg",
+    "harga": 11500
+  },
+  {
+    "id": 261,
+    "nama": "Sampurna keretek 1 biji",
+    "harga": 15300
+  },
+  {
+    "id": 262,
+    "nama": "Sampurna keretek 1 pak",
+    "harga": 151000
+  },
+  {
+    "id": 263,
+    "nama": "Samsu biasa 1 biji",
+    "harga": 19500
+  },
+  {
+    "id": 264,
+    "nama": "Samsu biasa 1 pak",
+    "harga": 194000
+  },
+  {
+    "id": 265,
+    "nama": "Samsu refil 1 biji",
+    "harga": 21500
+  },
+  {
+    "id": 266,
+    "nama": "Samsu refil 1 pak",
+    "harga": 213000
+  },
+  {
+    "id": 267,
+    "nama": "Santan sun kara",
+    "harga": 5500
+  },
+  {
+    "id": 268,
+    "nama": "Saos ABC biasa 1 rg",
+    "harga": 6500
+  },
+  {
+    "id": 269,
+    "nama": "Saos bantal Sariwangi 1 biji",
+    "harga": 3000
+  },
+  {
+    "id": 270,
+    "nama": "Sarden ABC kecil 1 biji",
+    "harga": 8000
+  },
+  {
+    "id": 271,
+    "nama": "Sarifit jelly",
+    "harga": 4500
+  },
+  {
+    "id": 272,
+    "nama": "Sasa 1000 1 pak",
+    "harga": 18000
+  },
+  {
+    "id": 273,
+    "nama": "Sasa 250gr 1biji",
+    "harga": 12500
+  },
+  {
+    "id": 274,
+    "nama": "Sejati 1 biji",
+    "harga": 9200
+  },
+  {
+    "id": 275,
+    "nama": "Sejati 1 pak",
+    "harga": 91000
+  },
+  {
+    "id": 276,
+    "nama": "Shampo campur",
+    "harga": 10000
+  },
+  {
+    "id": 277,
+    "nama": "Shampo zink/Lifebuoy 1 rg",
+    "harga": 5000
+  },
+  {
+    "id": 278,
+    "nama": "Sikat gigi formula 1 biji",
+    "harga": 3000
+  },
+  {
+    "id": 279,
+    "nama": "Sikat gigi formula 1 pak",
+    "harga": 33000
+  },
+  {
+    "id": 280,
+    "nama": "Simba 1000",
+    "harga": 8500
+  },
+  {
+    "id": 281,
+    "nama": "Simba 500",
+    "harga": 9000
+  },
+  {
+    "id": 282,
+    "nama": "Sipp air gelas 1 dus",
+    "harga": 13000
+  },
+  {
+    "id": 283,
+    "nama": "Sirup Bango 1 biji",
+    "harga": 22500
+  },
+  {
+    "id": 284,
+    "nama": "Soffel bengkoang 1 pak",
+    "harga": 58000
+  },
+  {
+    "id": 285,
+    "nama": "Soffel bengkoang 1rg",
+    "harga": 10000
+  },
+  {
+    "id": 286,
+    "nama": "Soffel biasa 1 lembar",
+    "harga": 10000
+  },
+  {
+    "id": 287,
+    "nama": "Soffel biasa 1rg",
+    "harga": 5000
+  },
+  {
+    "id": 288,
+    "nama": "Soklin lantai 1 biji",
+    "harga": 900
+  },
+  {
+    "id": 289,
+    "nama": "Soklin lantai 1000 1dus",
+    "harga": 42000
+  },
+  {
+    "id": 290,
+    "nama": "Sosis so nice/sosis otak²",
+    "harga": 19000
+  },
+  {
+    "id": 291,
+    "nama": "Sprit /fanta/Coca cola 1 pak",
+    "harga": 48000
+  },
+  {
+    "id": 292,
+    "nama": "Sukro 1000, kacang dua kelinci,tik tak",
+    "harga": 8500
+  },
+  {
+    "id": 293,
+    "nama": "Sunlight 2000",
+    "harga": 1700
+  },
+  {
+    "id": 294,
+    "nama": "Sunlight sedeng 1 biji",
+    "harga": 4500
+  },
+  {
+    "id": 295,
+    "nama": "Super bubur",
+    "harga": 9000
+  },
+  {
+    "id": 296,
+    "nama": "Superstar",
+    "harga": 18000
+  },
+  {
+    "id": 297,
+    "nama": "Surya 12 1 pak",
+    "harga": 247500
+  },
+  {
+    "id": 298,
+    "nama": "Surya 12, 1 biji",
+    "harga": 25000
+  },
+  {
+    "id": 299,
+    "nama": "Surya 16 1 biji",
+    "harga": 34000
+  },
+  {
+    "id": 300,
+    "nama": "Surya 16, 1 pak",
+    "harga": 336500
+  },
+  {
+    "id": 301,
+    "nama": "Susu bendera SASET 1 dus",
+    "harga": 148000
+  },
+  {
+    "id": 302,
+    "nama": "Susu bendera SASET 1 rg",
+    "harga": 7500
+  },
+  {
+    "id": 303,
+    "nama": "Susu bendera kaleng 1 biji",
+    "harga": 11500
+  },
+  {
+    "id": 304,
+    "nama": "Susu beruang kaleng",
+    "harga": 9000
+  },
+  {
+    "id": 305,
+    "nama": "Teh botol Sosro 1 bal",
+    "harga": 50000
+  },
+  {
+    "id": 306,
+    "nama": "Teh botol bubuk besar 1 biji",
+    "harga": 3500
+  },
+  {
+    "id": 307,
+    "nama": "Teh botol bubuk besar 1 pak",
+    "harga": 29000
+  },
+  {
+    "id": 308,
+    "nama": "Teh botol bubuk kecil 1 bal",
+    "harga": 25000
+  },
+  {
+    "id": 309,
+    "nama": "Teh botol bubuk kecil 1 pak",
+    "harga": 5000
+  },
+  {
+    "id": 310,
+    "nama": "Teh botol kotak 1 bal",
+    "harga": 31000
+  },
+  {
+    "id": 311,
+    "nama": "Teh botol kotak 1 pak",
+    "harga": 6500
+  },
+  {
+    "id": 312,
+    "nama": "Teh pucuk 1 dus",
+    "harga": 60000
+  },
+  {
+    "id": 313,
+    "nama": "Teh pucuk 1 dus",
+    "harga": 60000
+  },
+  {
+    "id": 314,
+    "nama": "Teh sosro kotak 1 biji",
+    "harga": 5200
+  },
+  {
+    "id": 315,
+    "nama": "Telor 1/2 kg",
+    "harga": 13500
+  },
+  {
+    "id": 316,
+    "nama": "Telor 1/4 kg",
+    "harga": 7000
+  },
+  {
+    "id": 317,
+    "nama": "Telor 1kg",
+    "harga": 26500
+  },
+  {
+    "id": 318,
+    "nama": "Tepung ketan kemasan 500gr",
+    "harga": 10000
+  },
+  {
+    "id": 319,
+    "nama": "Tepus Sasa bakwan campur 1 rg",
+    "harga": 23000
+  },
+  {
+    "id": 320,
+    "nama": "Tic tic rumput laut",
+    "harga": 6000
+  },
+  {
+    "id": 321,
+    "nama": "Tolak angin anak 1 kotak",
+    "harga": 33000
+  },
+  {
+    "id": 322,
+    "nama": "Tolak dewasa 1 kotak",
+    "harga": 45000
+  },
+  {
+    "id": 323,
+    "nama": "Top 1",
+    "harga": 4500
+  },
+  {
+    "id": 324,
+    "nama": "Top gula aren/capucino 1rg",
+    "harga": 17000
+  },
+  {
+    "id": 325,
+    "nama": "Trigu segitiga biru kemasan 1kg",
+    "harga": 11000
+  },
+  {
+    "id": 326,
+    "nama": "VIP chiki 2000",
+    "harga": 17000
+  },
+  {
+    "id": 327,
+    "nama": "Van wheat",
+    "harga": 20000
+  },
+  {
+    "id": 328,
+    "nama": "Wafer roll rcg",
+    "harga": 4500
+  },
+  {
+    "id": 329,
+    "nama": "Yogu² jelly",
+    "harga": 27000
+  },
+  {
+    "id": 330,
+    "nama": "Youka roll/youka marshmallow",
+    "harga": 8500
+  },
+  {
+    "id": 331,
+    "nama": "Yupi",
+    "harga": 10500
+  },
+  {
+    "id": 332,
+    "nama": "Zaky chiki 500",
+    "harga": 4500
+  }
+]
