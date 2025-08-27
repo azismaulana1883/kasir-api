@@ -17,7 +17,11 @@ const io = new Server(server, {
   cors: { origin: "*" }
 });
 
-app.use(cors());
+app.use(cors({
+  origin: ["https://kasir-neon.vercel.app"],  // asal frontend kamu
+  methods: ["GET", "POST", "DELETE"],
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 // path file data
