@@ -1,103 +1,80 @@
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const fs = require("fs");
-const path = require("path");
-const http = require("http");
-const { Server } = require("socket.io");
+import { useState, useEffect } from "react";
+import { io } from "socket.io-client";
+import FormInput from "./components/FormInput";
+import TableBelanja from "./components/TableBelanja";
+import "./css/Kasir.css";
 
-const app = express();
+// Base URL API & Socket
+const API_URL = "https://blueswift.onpella.app/api/belanja";
+const SOCKET_URL = "https://blueswift.onpella.app";
 
-// ✅ gunakan port dari environment (disediakan Pella) atau fallback ke 5000
-const PORT = process.env.PORT || 5000;
+function Kasir() {
+  const [items, setItems] = useState([]);
+  const [namaBarang, setNamaBarang] = useState("");
+  const [harga, setHarga] = useState("");
 
-// buat server http & socket.io
-const server = http.createServer(app);
-const io = new Server(server, {
-  cors: { origin: "*" }
-});
+  // Koneksi Socket
+  useEffect(() => {
+    const socket = io(SOCKET_URL);
 
-app.use(cors({
-  origin: ["https://kasir-neon.vercel.app"],  // asal frontend kamu
-  methods: ["GET", "POST", "DELETE"],
-  credentials: true
-}));
-app.use(bodyParser.json());
+    socket.on("connect", () => {
+      console.log("Terhubung ke socket server ✅");
+    });
 
-// path file data
-const DATA_FILE = path.join(__dirname, "belanja.json");
+    socket.on("updateData", (data) => {
+      setItems(data);
+    });
 
-// load data awal
-let belanja = [];
-if (fs.existsSync(DATA_FILE)) {
-  try {
-    const data = fs.readFileSync(DATA_FILE, "utf-8");
-    belanja = data ? JSON.parse(data) : [];
-  } catch (err) {
-    console.error("Gagal parse belanja.json, akan buat baru", err);
-    belanja = [];
-  }
-}
+    return () => {
+      socket.disconnect();
+    };
+  }, []);
 
-// fungsi helper
-function saveData() {
-  try {
-    fs.writeFileSync(DATA_FILE, JSON.stringify(belanja, null, 2));
-  } catch (err) {
-    console.error("Gagal simpan belanja.json:", err);
-  }
-}
+  // Ambil data dari API
+  useEffect(() => {
+    fetch(API_URL)
+      .then((res) => res.json())
+      .then((data) => setItems(data))
+      .catch((err) => console.error("Gagal ambil data:", err));
+  }, []);
 
-function emitUpdate() {
-  io.emit("updateBelanja", belanja);
-}
+  const handleAddItem = async (e) => {
+    e.preventDefault();
 
-// endpoint REST API
-app.get("/", (req, res) => {
-  res.send("API Kasir aktif ✅");
-});
+    const newItem = { namaBarang, harga };
 
-app.get("/api/belanja", (req, res) => {
-  res.json(belanja);
-});
+    try {
+      const res = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newItem),
+      });
 
-app.post("/api/belanja", (req, res) => {
-  const { nama, harga } = req.body;
-  if (!nama || !harga) {
-    return res.status(400).json({ message: "Nama dan harga wajib diisi" });
-  }
+      const data = await res.json();
+      console.log("Barang ditambahkan:", data);
 
-  const newItem = {
-    id: belanja.length > 0 ? belanja[belanja.length - 1].id + 1 : 1,
-    nama,
-    harga
+      setNamaBarang("");
+      setHarga("");
+    } catch (err) {
+      console.error("Gagal tambah barang:", err);
+    }
   };
 
-  belanja.push(newItem);
-  saveData();
-  emitUpdate();
-  res.status(201).json(newItem);
-});
+  return (
+    <div className="kasir">
+      <h1 className="text-2xl font-bold mb-4">Kasir Belanja</h1>
 
-app.delete("/api/belanja/:id", (req, res) => {
-  const id = parseInt(req.params.id);
-  belanja = belanja.filter(item => item.id !== id);
-  saveData();
-  emitUpdate();
-  res.json({ message: `Item dengan id ${id} dihapus` });
-});
+      <FormInput
+        namaBarang={namaBarang}
+        setNamaBarang={setNamaBarang}
+        harga={harga}
+        setHarga={setHarga}
+        handleAddItem={handleAddItem}
+      />
 
-// socket.io
-io.on("connection", (socket) => {
-  console.log("Client connected:", socket.id);
-  socket.emit("updateBelanja", belanja);
+      <TableBelanja items={items} />
+    </div>
+  );
+}
 
-  socket.on("disconnect", () => {
-    console.log("Client disconnected:", socket.id);
-  });
-});
-
-// start server
-server.listen(PORT, "0.0.0.0", () => {
-  console.log(`🚀 Server running at http://0.0.0.0:${PORT}`);
-});
+export default Kasir;
