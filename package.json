@@ -2,9 +2,10 @@
   "name": "kasir-api",
   "version": "1.0.0",
   "description": "",
-  "main": "/app/index.js",
+  "main": "app/index.js",
   "scripts": {
-    "main": "/app/index.js"
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
