@@ -4,10 +4,10 @@
   "description": "",
   "main": "app/index.js",
   "scripts": {
-    "start": "node app/index.js",
-    "dev": "nodemon app/index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
+    "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {

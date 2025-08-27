@@ -7,8 +7,11 @@ const http = require("http");
 const { Server } = require("socket.io");
 
 const app = express();
-const PORT = 5000;
 
+// ✅ gunakan port dari environment (disediakan Pella) atau fallback ke 5000
+const PORT = process.env.PORT || 5000;
+
+// buat server http & socket.io
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: { origin: "*" }
@@ -17,8 +20,10 @@ const io = new Server(server, {
 app.use(cors());
 app.use(bodyParser.json());
 
+// path file data
 const DATA_FILE = path.join(__dirname, "belanja.json");
 
+// load data awal
 let belanja = [];
 if (fs.existsSync(DATA_FILE)) {
   try {
@@ -30,13 +35,23 @@ if (fs.existsSync(DATA_FILE)) {
   }
 }
 
+// fungsi helper
 function saveData() {
-  fs.writeFileSync(DATA_FILE, JSON.stringify(belanja, null, 2));
+  try {
+    fs.writeFileSync(DATA_FILE, JSON.stringify(belanja, null, 2));
+  } catch (err) {
+    console.error("Gagal simpan belanja.json:", err);
+  }
 }
 
 function emitUpdate() {
   io.emit("updateBelanja", belanja);
 }
+
+// endpoint REST API
+app.get("/", (req, res) => {
+  res.send("API Kasir aktif ✅");
+});
 
 app.get("/api/belanja", (req, res) => {
   res.json(belanja);
@@ -56,7 +71,7 @@ app.post("/api/belanja", (req, res) => {
 
   belanja.push(newItem);
   saveData();
-  emitUpdate(); // push update ke semua client
+  emitUpdate();
   res.status(201).json(newItem);
 });
 
@@ -64,10 +79,11 @@ app.delete("/api/belanja/:id", (req, res) => {
   const id = parseInt(req.params.id);
   belanja = belanja.filter(item => item.id !== id);
   saveData();
-  emitUpdate(); // push update ke semua client
+  emitUpdate();
   res.json({ message: `Item dengan id ${id} dihapus` });
 });
 
+// socket.io
 io.on("connection", (socket) => {
   console.log("Client connected:", socket.id);
   socket.emit("updateBelanja", belanja);
@@ -77,6 +93,7 @@ io.on("connection", (socket) => {
   });
 });
 
+// start server
 server.listen(PORT, "0.0.0.0", () => {
-  console.log(`Server running at http://0.0.0.0:${PORT}`);
+  console.log(`🚀 Server running at http://0.0.0.0:${PORT}`);
 });
